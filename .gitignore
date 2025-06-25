@@ -1,13 +1,17 @@
 build
 dist / media
+dist-ssr
 node_modules
+server/dist
+public/dist
+.cache
 .DS_Store
 .env
+*.local
+*.log
 .next
+.turbo
 .vercel
-
-public/robots.txt
-public/sitemap*.xml
 
 # Cache Files
 .eslintmdcache
