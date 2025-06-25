@@ -1,4 +1,14 @@
+packages:
+  - apps/*
+  - packages/*
+
 onlyBuiltDependencies:
   - lefthook
   - sharp
+
+publicHoistPattern:
+  - "*eslint*"
+  - "*prettier*"
+  - "*stylelint*"
+
 sideEffectsCache: false

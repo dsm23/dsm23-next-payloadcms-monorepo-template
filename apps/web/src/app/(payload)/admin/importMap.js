@@ -32,6 +32,9 @@ import { SlugComponent as SlugComponent_84bda7c99e919abc122af118325c1296 } from 
 import { RowLabel as RowLabel_0982f4e64b4cf41185d0a867d037db91 } from "~/Footer/RowLabel";
 import { RowLabel as RowLabel_7e75ad17891560e1b4a7a63e1beb3ad4 } from "~/Header/RowLabel";
 
+/**
+ * @type {import("payload").ImportMap}
+ */
 export const importMap = {
   "@payloadcms/richtext-lexical/rsc#RscEntryLexicalCell":
     RscEntryLexicalCell_44fe37237e0ebf4470c9990d8cb7b07e,

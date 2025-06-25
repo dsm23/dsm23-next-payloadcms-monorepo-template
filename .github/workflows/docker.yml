@@ -12,7 +12,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: "dsm23/dsm23-next-payloadcms-template"
+  IMAGE_NAME: "dsm23/dsm23-next-payloadcms-monorepo-template"
 
 permissions:
   contents: read
@@ -45,7 +45,7 @@ jobs:
         uses: docker/build-push-action@263435318d21b8e681c14492fe198d362a7d2c83 # v6.18.0
         with:
           context: .
-          file: Dockerfile
+          file: apps/web/Dockerfile
           platforms: linux/amd64
           push: ${{ github.ref_name == github.event.repository.default_branch }}
           tags: >
