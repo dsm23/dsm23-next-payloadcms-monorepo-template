@@ -18,6 +18,9 @@ public/dist
 .stylelintcache
 .prettiercache
 
+# Lefthook
+lefthook-local.yml
+
 # Unit test coverage
 coverage/
 
