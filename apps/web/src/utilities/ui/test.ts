@@ -1,3 +1,5 @@
+/* eslint-disable no-constant-binary-expression */
+
 import { describe, expect, it } from "@jest/globals";
 import { cn } from ".";
 

@@ -1,16 +1,12 @@
-import { dirname } from "node:path";
-import { fileURLToPath } from "node:url";
-import { FlatCompat } from "@eslint/eslintrc";
+import { config as baseConfig } from "./next.js";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-
-const compat = new FlatCompat({
-  baseDirectory: __dirname,
-});
-
-const eslintConfig = [
-  ...compat.extends("next/core-web-vitals", "next/typescript"),
+/**
+ * A custom ESLint configuration for libraries that use Payloadcms.
+ *
+ * @type {import("eslint").Linter.Config}
+ * */
+export const config = [
+  ...baseConfig,
   {
     rules: {
       "@typescript-eslint/ban-ts-comment": "warn",
@@ -55,5 +51,3 @@ const eslintConfig = [
     ignores: [".next/"],
   },
 ];
-
-export default eslintConfig;

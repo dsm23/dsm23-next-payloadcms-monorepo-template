@@ -6,9 +6,8 @@
   "exports": {
     ".": "./index.js",
     "./next": "./next.js",
-    "./react": "./react.js",
-    "./remix": "./remix.js",
-    "./vite": "./vite.js"
+    "./payload": "./payload.js",
+    "./react": "./react.js"
   },
   "devDependencies": {
     "@eslint/js": "9.30.1",
