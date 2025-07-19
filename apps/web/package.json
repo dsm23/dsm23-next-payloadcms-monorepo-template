@@ -4,7 +4,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "next build",
+    "build": "next build --turbopack",
     "postbuild": "next-sitemap --config next-sitemap.config.cjs",
     "dev": "next dev --turbopack",
     "dev:prod": "rm -rf .next && pnpm build && pnpm start",
