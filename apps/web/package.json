@@ -61,7 +61,7 @@
     "@commitlint/config-conventional": "19.8.1",
     "@commitlint/types": "19.8.1",
     "@fast-check/jest": "2.1.1",
-    "@ianvs/prettier-plugin-sort-imports": "4.6.0",
+    "@ianvs/prettier-plugin-sort-imports": "4.6.1",
     "@jest/globals": "30.0.5",
     "@jest/types": "30.0.5",
     "@tailwindcss/postcss": "4.1.11",
