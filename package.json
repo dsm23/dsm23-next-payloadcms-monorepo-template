@@ -23,8 +23,6 @@
     "@types/node": "24.2.0",
     "@workspace/eslint-config": "workspace:*",
     "@workspace/typescript-config": "workspace:*",
-    "commitizen": "4.3.1",
-    "cz-conventional-changelog": "3.3.0",
     "lefthook": "1.12.2",
     "prettier": "3.6.2",
     "turbo": "2.5.5",
