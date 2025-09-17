@@ -23,7 +23,7 @@
     "@types/node": "24.5.1",
     "@workspace/eslint-config": "workspace:*",
     "@workspace/typescript-config": "workspace:*",
-    "lefthook": "1.13.0",
+    "lefthook": "1.13.1",
     "prettier": "3.6.2",
     "turbo": "2.5.6",
     "typescript": "5.9.2"
