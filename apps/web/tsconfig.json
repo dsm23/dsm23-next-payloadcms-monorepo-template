@@ -46,7 +46,6 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "apps/web/redirects.js",
-    "apps/web/jest.setup.js",
     "next.config.js",
     "apps/web/next-sitemap.config.cjs"
   ],

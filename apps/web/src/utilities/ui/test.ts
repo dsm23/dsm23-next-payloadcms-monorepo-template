@@ -1,6 +1,6 @@
 /* eslint-disable no-constant-binary-expression */
 
-import { describe, expect, it } from "@jest/globals";
+import { describe, expect, it } from "vitest";
 import { cn } from ".";
 
 describe("utilities", () => {
