@@ -22,6 +22,7 @@
         ".env"
       ],
       "env": [
+        "__NEXT_PRIVATE_ORIGIN",
         "DATABASE_URI",
         "PAYLOAD_SECRET",
         "NEXT_PUBLIC_SERVER_URL",
@@ -42,6 +43,7 @@
         ".env"
       ],
       "env": [
+        "__NEXT_PRIVATE_ORIGIN",
         "DATABASE_URI",
         "PAYLOAD_SECRET",
         "NEXT_PUBLIC_SERVER_URL",
@@ -62,6 +64,7 @@
         ".env"
       ],
       "env": [
+        "__NEXT_PRIVATE_ORIGIN",
         "DATABASE_URI",
         "PAYLOAD_SECRET",
         "NEXT_PUBLIC_SERVER_URL",
