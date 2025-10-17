@@ -46,7 +46,6 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "apps/web/redirects.js",
-    "next.config.js",
     "apps/web/next-sitemap.config.cjs"
   ],
   "exclude": [
