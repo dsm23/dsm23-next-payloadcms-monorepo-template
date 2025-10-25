@@ -15,11 +15,9 @@ export default defineConfig({
     setupFiles: "./src/vitest.setup.ts",
     exclude: [...defaultExclude, "**/playwright-tests/**"],
     coverage: {
-      all: true,
       include: ["src/**/*.[jt]s?(x)"],
       exclude: [
         "src/**/*.stories.[jt]s?(x)",
-        "**/playwright-tests/**",
         ...coverageConfigDefaults.exclude,
       ],
       thresholds: {
