@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { CopyIcon } from "@payloadcms/ui/icons/Copy";
-import { Button } from "~/components/ui/button";
+import { Button } from "@repo/ui/components/button";
 
 export function CopyButton({ code }: { code: string }) {
   const [text, setText] = useState("Copy");

@@ -79,6 +79,7 @@
     "@repo/postcss-config": "workspace:*",
     "@repo/stylelint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
+    "@repo/ui": "workspace:*",
     "copyfiles": "2.4.1",
     "lefthook": "2.0.1",
     "npm-run-all2": "8.0.4",
