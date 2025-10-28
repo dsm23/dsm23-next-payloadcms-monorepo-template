@@ -26,14 +26,12 @@ import {
   RscEntryLexicalCell as RscEntryLexicalCell_44fe37237e0ebf4470c9990d8cb7b07e,
   RscEntryLexicalField as RscEntryLexicalField_44fe37237e0ebf4470c9990d8cb7b07e,
 } from "@payloadcms/richtext-lexical/rsc";
+import { SlugField as SlugField_3817bf644402e67bfe6577f60ef982de } from "@payloadcms/ui";
 import { default as default_f76ec18c68fb7b0b36f8ba232eb389cb } from "~/components/BeforeDashboard";
 import { default as default_bc0dfd06314899e9581563b1d9fee736 } from "~/components/BeforeLogin";
 import { RowLabel as RowLabel_0982f4e64b4cf41185d0a867d037db91 } from "~/Footer/RowLabel";
 import { RowLabel as RowLabel_7e75ad17891560e1b4a7a63e1beb3ad4 } from "~/Header/RowLabel";
 
-/**
- * @type {import("payload").ImportMap}
- */
 export const importMap = {
   "@payloadcms/richtext-lexical/rsc#RscEntryLexicalCell":
     RscEntryLexicalCell_44fe37237e0ebf4470c9990d8cb7b07e,
@@ -67,6 +65,7 @@ export const importMap = {
     MetaDescriptionComponent_a8a977ebc872c5d5ea7ee689724c0860,
   "@payloadcms/plugin-seo/client#PreviewComponent":
     PreviewComponent_a8a977ebc872c5d5ea7ee689724c0860,
+  "@payloadcms/ui#SlugField": SlugField_3817bf644402e67bfe6577f60ef982de,
   "@payloadcms/richtext-lexical/client#HorizontalRuleFeatureClient":
     HorizontalRuleFeatureClient_e70f5e05f09f93e00b997edb1ef0c864,
   "@payloadcms/richtext-lexical/client#BlocksFeatureClient":

@@ -1,0 +1,109 @@
+{
+  "name": "@repo/ui",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "sideEffects": false,
+  "files": [
+    "dist/**",
+    "dist"
+  ],
+  "exports": {
+    "./components/button": {
+      "import": {
+        "types": "./dist/es/button.d.ts",
+        "default": "./dist/es/button.js"
+      },
+      "require": {
+        "types": "./dist/cjs/button.d.cts",
+        "default": "./dist/cjs/button.cjs"
+      }
+    },
+    "./components/dropdown-menu": {
+      "import": {
+        "types": "./dist/es/dropdown-menu.d.ts",
+        "default": "./dist/es/dropdown-menu.js"
+      },
+      "require": {
+        "types": "./dist/cjs/dropdown-menu.d.cts",
+        "default": "./dist/cjs/dropdown-menu.cjs"
+      }
+    },
+    "./components/theme-provider": {
+      "import": {
+        "types": "./dist/es/theme-provider.d.ts",
+        "default": "./dist/es/theme-provider.js"
+      },
+      "require": {
+        "types": "./dist/cjs/theme-provider.d.cts",
+        "default": "./dist/cjs/theme-provider.cjs"
+      }
+    },
+    "./hooks/use-mounted": {
+      "import": {
+        "types": "./dist/es/use-mounted.d.ts",
+        "default": "./dist/es/use-mounted.js"
+      },
+      "require": {
+        "types": "./dist/cjs/use-mounted.d.cts",
+        "default": "./dist/cjs/use-mounted.cjs"
+      }
+    },
+    "./lib/utils": {
+      "import": {
+        "types": "./dist/es/utils.d.ts",
+        "default": "./dist/es/utils.js"
+      },
+      "require": {
+        "types": "./dist/cjs/utils.d.cts",
+        "default": "./dist/cjs/utils.cjs"
+      }
+    }
+  },
+  "scripts": {
+    "build": "bunchee",
+    "dev": "bunchee --watch",
+    "lint:bunchee": "bunchee lint",
+    "lint:js": "eslint . --max-warnings 0",
+    "lint": "run-p lint:bunchee lint:js",
+    "check-types": "tsc --noEmit",
+    "test": "vitest",
+    "coverage": "vitest --coverage"
+  },
+  "dependencies": {
+    "@radix-ui/react-dropdown-menu": "2.1.16",
+    "@radix-ui/react-slot": "1.2.3",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "lucide-react": "0.548.0",
+    "next-themes": "0.4.6",
+    "tailwind-merge": "3.3.1"
+  },
+  "devDependencies": {
+    "@fast-check/vitest": "0.2.2",
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "@storybook/nextjs-vite": "9.1.15",
+    "@testing-library/jest-dom": "6.9.1",
+    "@testing-library/react": "16.3.0",
+    "@testing-library/user-event": "14.6.1",
+    "@types/node": "24.9.1",
+    "@vitejs/plugin-react": "5.1.0",
+    "@vitest/coverage-v8": "4.0.3",
+    "bunchee": "6.6.2",
+    "jsdom": "27.0.1",
+    "npm-run-all2": "8.0.4",
+    "prettier-plugin-css-order": "2.1.2",
+    "prettier-plugin-tailwindcss": "0.7.1",
+    "storybook": "9.1.15",
+    "typescript": "5.9.3",
+    "vite-tsconfig-paths": "5.1.4",
+    "vitest": "4.0.3"
+  },
+  "peerDependencies": {
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  }
+}

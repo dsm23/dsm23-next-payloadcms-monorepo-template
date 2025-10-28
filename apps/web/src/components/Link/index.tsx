@@ -1,8 +1,8 @@
 import type { FunctionComponent } from "react";
 import Link from "next/link";
-import { Button } from "~/components/ui/button";
+import { Button } from "@repo/ui/components/button";
+import type { ButtonProps } from "@repo/ui/components/button";
 import { cn } from "~/utilities/ui";
-import type { ButtonProps } from "~/components/ui/button";
 import type { Page, Post } from "~/payload-types";
 
 type CMSLinkType = {
