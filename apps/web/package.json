@@ -76,6 +76,7 @@
     "@vitejs/plugin-react": "5.1.0",
     "@vitest/coverage-v8": "4.0.3",
     "@repo/eslint-config": "workspace:*",
+    "@repo/postcss-config": "workspace:*",
     "@repo/stylelint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "copyfiles": "2.4.1",
