@@ -1,6 +1,6 @@
 import type { FunctionComponent } from "react";
+import { cn } from "@repo/ui/lib/utils";
 import RichText from "~/components/RichText";
-import { cn } from "~/utilities/ui";
 import type { BannerBlock as BannerBlockProps } from "~/payload-types";
 
 type Props = {

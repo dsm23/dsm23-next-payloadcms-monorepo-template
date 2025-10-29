@@ -8,7 +8,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "~/components/ui/select";
+} from "@repo/ui/components/select";
 import { useTheme } from "..";
 import { themeLocalStorageKey } from "./types";
 import type { Theme } from "./types";

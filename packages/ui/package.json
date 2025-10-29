@@ -19,6 +19,26 @@
         "default": "./dist/cjs/button.cjs"
       }
     },
+    "./components/card": {
+      "import": {
+        "types": "./dist/es/card.d.ts",
+        "default": "./dist/es/card.js"
+      },
+      "require": {
+        "types": "./dist/cjs/card.d.cts",
+        "default": "./dist/cjs/card.cjs"
+      }
+    },
+    "./components/checkbox": {
+      "import": {
+        "types": "./dist/es/checkbox.d.ts",
+        "default": "./dist/es/checkbox.js"
+      },
+      "require": {
+        "types": "./dist/cjs/checkbox.d.cts",
+        "default": "./dist/cjs/checkbox.cjs"
+      }
+    },
     "./components/dropdown-menu": {
       "import": {
         "types": "./dist/es/dropdown-menu.d.ts",
@@ -27,6 +47,56 @@
       "require": {
         "types": "./dist/cjs/dropdown-menu.d.cts",
         "default": "./dist/cjs/dropdown-menu.cjs"
+      }
+    },
+    "./components/input": {
+      "import": {
+        "types": "./dist/es/input.d.ts",
+        "default": "./dist/es/input.js"
+      },
+      "require": {
+        "types": "./dist/cjs/input.d.cts",
+        "default": "./dist/cjs/input.cjs"
+      }
+    },
+    "./components/label": {
+      "import": {
+        "types": "./dist/es/label.d.ts",
+        "default": "./dist/es/label.js"
+      },
+      "require": {
+        "types": "./dist/cjs/label.d.cts",
+        "default": "./dist/cjs/label.cjs"
+      }
+    },
+    "./components/pagination": {
+      "import": {
+        "types": "./dist/es/pagination.d.ts",
+        "default": "./dist/es/pagination.js"
+      },
+      "require": {
+        "types": "./dist/cjs/pagination.d.cts",
+        "default": "./dist/cjs/pagination.cjs"
+      }
+    },
+    "./components/select": {
+      "import": {
+        "types": "./dist/es/select.d.ts",
+        "default": "./dist/es/select.js"
+      },
+      "require": {
+        "types": "./dist/cjs/select.d.cts",
+        "default": "./dist/cjs/select.cjs"
+      }
+    },
+    "./components/textarea": {
+      "import": {
+        "types": "./dist/es/textarea.d.ts",
+        "default": "./dist/es/textarea.js"
+      },
+      "require": {
+        "types": "./dist/cjs/textarea.d.cts",
+        "default": "./dist/cjs/textarea.cjs"
       }
     },
     "./components/theme-provider": {
@@ -71,7 +141,10 @@
     "coverage": "vitest --coverage"
   },
   "dependencies": {
+    "@radix-ui/react-checkbox": "1.3.3",
     "@radix-ui/react-dropdown-menu": "2.1.16",
+    "@radix-ui/react-label": "2.1.7",
+    "@radix-ui/react-select": "2.2.6",
     "@radix-ui/react-slot": "1.2.3",
     "class-variance-authority": "0.7.1",
     "clsx": "2.1.1",

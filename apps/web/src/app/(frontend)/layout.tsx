@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import { draftMode, headers } from "next/headers";
 import type { Metadata } from "next";
+import { cn } from "@repo/ui/lib/utils";
 import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
 import { AdminBar } from "~/components/AdminBar";
@@ -9,7 +10,6 @@ import { Header } from "~/Header/Component";
 import { Providers } from "~/providers";
 import { InitTheme } from "~/providers/Theme/InitTheme";
 import { mergeOpenGraph } from "~/utilities/merge-open-graph";
-import { cn } from "~/utilities/ui";
 
 import "./globals.css";
 

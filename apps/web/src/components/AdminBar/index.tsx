@@ -4,11 +4,11 @@ import { useCallback, useState } from "react";
 import type { FunctionComponent } from "react";
 import { useRouter, useSelectedLayoutSegments } from "next/navigation";
 import { PayloadAdminBar } from "@payloadcms/admin-bar";
+import { cn } from "@repo/ui/lib/utils";
 import type {
   PayloadAdminBarProps,
   PayloadMeUser,
 } from "@payloadcms/admin-bar";
-import { cn } from "~/utilities/ui";
 
 import "./index.scss";
 

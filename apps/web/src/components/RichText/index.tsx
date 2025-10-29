@@ -2,6 +2,7 @@ import {
   RichText as ConvertRichText,
   LinkJSXConverter,
 } from "@payloadcms/richtext-lexical/react";
+import { cn } from "@repo/ui/lib/utils";
 import type {
   DefaultNodeTypes,
   DefaultTypedEditorState,
@@ -13,7 +14,6 @@ import { BannerBlock } from "~/blocks/Banner/Component";
 import { CallToActionBlock } from "~/blocks/CallToAction/Component";
 import { CodeBlock } from "~/blocks/Code/Component";
 import { MediaBlock } from "~/blocks/MediaBlock/Component";
-import { cn } from "~/utilities/ui";
 import type { CodeBlockProps } from "~/blocks/Code/Component";
 import type {
   BannerBlock as BannerBlockProps,
