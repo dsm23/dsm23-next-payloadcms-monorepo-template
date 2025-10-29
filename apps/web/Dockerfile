@@ -7,13 +7,15 @@ FROM node:24.11.0-alpine@sha256:f36fed0b2129a8492535e2853c64fbdbd2d29dc1219ee321
 # TODO: re-add corepack after it's been removed
 # RUN npm install -g corepack@latest
 
+# renovate: datasource=npm depName=turbo
+ARG TURBO_VERSION="2.5.8"
+
 FROM base AS builder
-RUN apk update
-RUN apk add --no-cache libc6-compat
-# Set working directory
+# Check https://github.com/nodejs/docker-node/tree/b4117f9333da4138b03a546ec926ef50a31506c3#nodealpine to understand why gcompat might be needed.
+RUN apk add --no-cache gcompat=1.1.0-r4
 WORKDIR /app
 
-RUN npm i -g turbo@2.5.4
+RUN npm i -g "turbo@$TURBO_VERSION"
 COPY . .
 
 # Generate a partial monorepo with a pruned lockfile for a target workspace.
