@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+@import "@repo/tailwind-config/globals.css";
+
+@source "../src/**/*.{ts,tsx}";
+@source "../../../packages/ui/src/**/*.{ts,tsx}";
