@@ -3,8 +3,8 @@
 import { useEffect, useState } from "react";
 import type { FunctionComponent } from "react";
 import { useRouter } from "next/navigation";
-import { Input } from "~/components/ui/input";
-import { Label } from "~/components/ui/label";
+import { Input } from "@repo/ui/components/input";
+import { Label } from "@repo/ui/components/label";
 import { useDebounce } from "~/utilities/use-debounce";
 
 export const Search: FunctionComponent = () => {

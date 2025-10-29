@@ -1,6 +1,6 @@
 import type { FunctionComponent } from "react";
+import { cn } from "@repo/ui/lib/utils";
 import { Card } from "~/components/Card";
-import { cn } from "~/utilities/ui";
 import type { CardPostData } from "~/components/Card";
 
 export type Props = {

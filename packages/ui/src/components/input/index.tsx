@@ -1,5 +1,5 @@
 import type { FunctionComponent, InputHTMLAttributes, Ref } from "react";
-import { cn } from "~/utilities/ui";
+import { cn } from "@repo/ui/lib/utils";
 
 const Input: FunctionComponent<
   {

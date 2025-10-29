@@ -1,5 +1,5 @@
 import type { FunctionComponent, HTMLAttributes } from "react";
-import { cn } from "~/utilities/ui";
+import { cn } from "@repo/ui/lib/utils";
 
 const Card: FunctionComponent<HTMLAttributes<HTMLDivElement>> = ({
   className,

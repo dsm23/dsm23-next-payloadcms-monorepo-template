@@ -3,9 +3,9 @@
 import type { FunctionComponent } from "react";
 import NextImage from "next/image";
 import type { StaticImageData } from "next/image";
+import { cn } from "@repo/ui/lib/utils";
 import { cssVariables } from "~/cssVariables";
 import { getMediaUrl } from "~/utilities/get-media-url";
-import { cn } from "~/utilities/ui";
 import type { Props as MediaProps } from "../types";
 
 const { breakpoints } = cssVariables;

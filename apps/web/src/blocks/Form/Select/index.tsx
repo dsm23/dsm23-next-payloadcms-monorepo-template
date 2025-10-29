@@ -1,15 +1,15 @@
 import type { FunctionComponent } from "react";
 import type { Control, FieldErrorsImpl } from "react-hook-form";
-import { Controller } from "react-hook-form";
-import type { SelectField } from "@payloadcms/plugin-form-builder/types";
-import { Label } from "~/components/ui/label";
+import { Label } from "@repo/ui/components/label";
 import {
   Select as SelectComponent,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "~/components/ui/select";
+} from "@repo/ui/components/select";
+import { Controller } from "react-hook-form";
+import type { SelectField } from "@payloadcms/plugin-form-builder/types";
 import { Error } from "../Error";
 import { Width } from "../Width";
 

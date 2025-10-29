@@ -2,8 +2,8 @@
 
 import type { ComponentProps, FunctionComponent } from "react";
 import * as SelectPrimitive from "@radix-ui/react-select";
+import { cn } from "@repo/ui/lib/utils";
 import { Check, ChevronDown, ChevronUp } from "lucide-react";
-import { cn } from "~/utilities/ui";
 
 const Select: FunctionComponent<ComponentProps<typeof SelectPrimitive.Root>> = (
   props,

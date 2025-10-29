@@ -10,8 +10,8 @@ import {
   PaginationLink,
   PaginationNext,
   PaginationPrevious,
-} from "~/components/ui/pagination";
-import { cn } from "~/utilities/ui";
+} from "@repo/ui/components/pagination";
+import { cn } from "@repo/ui/lib/utils";
 
 export const Pagination: FunctionComponent<{
   className?: string;

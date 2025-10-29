@@ -2,8 +2,8 @@
 
 import { useEffect, useRef } from "react";
 import type { FunctionComponent } from "react";
+import { cn } from "@repo/ui/lib/utils";
 import { getMediaUrl } from "~/utilities/get-media-url";
-import { cn } from "~/utilities/ui";
 import type { Props as MediaProps } from "../types";
 
 export const VideoMedia: FunctionComponent<MediaProps> = (props) => {
