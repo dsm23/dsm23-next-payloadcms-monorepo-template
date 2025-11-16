@@ -64,6 +64,10 @@
       ]
     },
     {
+      "groupName": "turbo monorepo",
+      "matchPackageNames": ["@turbo/**", "eslint-plugin-turbo", "turbo"]
+    },
+    {
       "groupName": "minio images",
       "matchDatasources": ["docker"],
       "matchManagers": ["docker-compose"],
