@@ -20,7 +20,7 @@
     "coverage": "vitest --coverage --project unit"
   },
   "dependencies": {
-    "@next/bundle-analyzer": "15.5.8",
+    "@next/bundle-analyzer": "15.5.9",
     "@payloadcms/admin-bar": "3.64.0",
     "@payloadcms/db-mongodb": "3.64.0",
     "@payloadcms/email-nodemailer": "3.64.0",
