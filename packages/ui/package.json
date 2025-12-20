@@ -156,7 +156,7 @@
     "@fast-check/vitest": "0.2.4",
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
-    "@storybook/nextjs-vite": "10.1.9",
+    "@storybook/nextjs-vite": "10.1.10",
     "@testing-library/jest-dom": "6.9.1",
     "@testing-library/react": "16.3.1",
     "@testing-library/user-event": "14.6.1",
