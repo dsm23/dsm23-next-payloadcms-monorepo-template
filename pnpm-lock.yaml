@@ -480,8 +480,8 @@ importers:
         specifier: 4.0.16
         version: 4.0.16(@vitest/browser@4.0.16(vite@7.1.10(@types/node@24.10.4)(jiti@2.6.1)(lightningcss@1.30.2)(sass@1.77.4)(tsx@4.20.6))(vitest@4.0.16))(vitest@4.0.16)
       bunchee:
-        specifier: 6.7.0
-        version: 6.7.0(typescript@5.9.3)
+        specifier: 6.8.0
+        version: 6.8.0(typescript@5.9.3)
       jsdom:
         specifier: 27.3.0
         version: 27.3.0(postcss@8.5.6)
@@ -3402,8 +3402,8 @@ packages:
   buffer@5.6.0:
     resolution: {integrity: sha512-/gDYp/UtU0eA1ys8bOs9J6a+E/KWIY+DZ+Q2WESNUA0jFRsJOc0SNUO6xJ5SGA1xueg3NL65W6s+NY5l9cunuw==}
 
-  bunchee@6.7.0:
-    resolution: {integrity: sha512-tCTSm4okjArE/0FiuLUi5ITqNLlH6Ak2i+2sRxkBGt2PcuXYCvKwKV1zI3oQuvSNnItn3860O0S/sLnP7eIwpg==}
+  bunchee@6.8.0:
+    resolution: {integrity: sha512-FKy9k7zWuluTsauADBv9iyyGPIYrWUCaP8Y0Vx2blgVL6bl/HRwEMEMiXFQSuk3TZF2CIGotv4+/mXQFwfSaAw==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
     peerDependencies:
@@ -6624,6 +6624,7 @@ packages:
   whatwg-encoding@3.1.1:
     resolution: {integrity: sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==}
     engines: {node: '>=18'}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
 
   whatwg-mimetype@4.0.0:
     resolution: {integrity: sha512-QaKxh0eNIi2mE9p2vEdzfagOKHCcj1pJ56EEHGQOVxp8r9/iszLUUV7v89x9O1p/T+NlTM5W7jW6+cz4Fq1YVg==}
@@ -10627,7 +10628,7 @@ snapshots:
       base64-js: 1.5.1
       ieee754: 1.2.1
 
-  bunchee@6.7.0(typescript@5.9.3):
+  bunchee@6.8.0(typescript@5.9.3):
     dependencies:
       '@rollup/plugin-commonjs': 29.0.0(rollup@4.52.4)
       '@rollup/plugin-json': 6.1.0(rollup@4.52.4)

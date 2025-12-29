@@ -163,7 +163,7 @@
     "@types/node": "24.10.4",
     "@vitejs/plugin-react": "5.1.2",
     "@vitest/coverage-v8": "4.0.16",
-    "bunchee": "6.7.0",
+    "bunchee": "6.8.0",
     "jsdom": "27.3.0",
     "npm-run-all2": "8.0.4",
     "prettier-plugin-css-order": "2.1.2",
