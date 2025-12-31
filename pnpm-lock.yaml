@@ -480,8 +480,8 @@ importers:
         specifier: 4.0.16
         version: 4.0.16(@vitest/browser@4.0.16(vite@7.1.10(@types/node@24.10.4)(jiti@2.6.1)(lightningcss@1.30.2)(sass@1.77.4)(tsx@4.20.6))(vitest@4.0.16))(vitest@4.0.16)
       bunchee:
-        specifier: 6.8.1
-        version: 6.8.1(typescript@5.9.3)
+        specifier: 6.8.2
+        version: 6.8.2(typescript@5.9.3)
       jsdom:
         specifier: 27.4.0
         version: 27.4.0(postcss@8.5.6)
@@ -3411,8 +3411,8 @@ packages:
   buffer@5.6.0:
     resolution: {integrity: sha512-/gDYp/UtU0eA1ys8bOs9J6a+E/KWIY+DZ+Q2WESNUA0jFRsJOc0SNUO6xJ5SGA1xueg3NL65W6s+NY5l9cunuw==}
 
-  bunchee@6.8.1:
-    resolution: {integrity: sha512-TVo+wB9Sk7OEGn0SzoSr5POsB2Y+MFa6uVSX916GyyP+cgghs1shRk1F7ws/dLuVPBZ9kTNo9286t7ZDGUUkaw==}
+  bunchee@6.8.2:
+    resolution: {integrity: sha512-xU/iRy5yNKEPctKXTCZAa7Uj+NF4zHhobt564Aw7oaY6VcY2EKx5oRwG88wcZ8JjZJwSDheyy2IaRg3M0xN/Iw==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
     peerDependencies:
@@ -10623,7 +10623,7 @@ snapshots:
       base64-js: 1.5.1
       ieee754: 1.2.1
 
-  bunchee@6.8.1(typescript@5.9.3):
+  bunchee@6.8.2(typescript@5.9.3):
     dependencies:
       '@rollup/plugin-commonjs': 29.0.0(rollup@4.52.4)
       '@rollup/plugin-json': 6.1.0(rollup@4.52.4)
