@@ -6,5 +6,7 @@ node_modules
 .next
 .vercel
 
+next-env.d.ts
+
 public/robots.txt
 public/sitemap*.xml
