@@ -9,6 +9,8 @@ export const config = [
   ...baseConfig,
   {
     rules: {
+      "react-hooks/refs": "off",
+      "react-hooks/set-state-in-effect": "off",
       "@typescript-eslint/ban-ts-comment": "warn",
       "@typescript-eslint/no-empty-object-type": "warn",
       "@typescript-eslint/no-explicit-any": "warn",
@@ -46,8 +48,5 @@ export const config = [
         },
       ],
     },
-  },
-  {
-    ignores: [".next/"],
   },
 ];
